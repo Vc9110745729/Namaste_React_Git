@@ -729,9 +729,24 @@ var _clientDefault = parcelHelpers.interopDefault(_client);
 const head = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
     id: "chandu",
     className: "heading"
-}, "I'm a heading 1 from parcel man");
+}, "I'm a heading 1 from parcel man !");
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(head);
+root.render(head); /*
+// HMR-hot module reploading
+// file wather algorithm
+// bundling
+// cleaning our code 
+// dev production build
+// super fast build algorithm
+// caching while development
+// compression of files
+// renaming the variables
+// older version of browser support
+// id adds pollyfills
+// we can just build our app on local machine and deploy the dist folder to the server
+// https on dev
+
+*/ 
 
   $parcel$ReactRefreshHelpers$3d99.postlude(module);
 } finally {
